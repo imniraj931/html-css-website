@@ -1,0 +1,85 @@
+body{
+    margin-left: 2.2rem;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration:none;
+    font-weight: bolder;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: red;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+} 
+
+ul{
+    width:30rem;
+    display:flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+nav{
+    margin-right:2rem;
+}
+
+.main-img{
+    max-width: 98%;
+    height:auto;
+}
+
+.parent{
+    display:flex;
+    justify-content:space-around;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.child{
+    width: 30%;
+}
+
+.footer_parent {
+    height: 5rem;
+    background-color: black;
+    /* DON'T KNOW WHY THIS IS NOT WORKING (margin-top: 5 rem;) */
+    /* it is used to perfectly center a div*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:1.2rem;
+}
+
+.footer_content {
+    color: white;
+    /* boldness */
+    font-weight: 500;
+    font-size: 1.5rem;
+    /* enforce uppercase */
+    text-transform: uppercase;
+}
